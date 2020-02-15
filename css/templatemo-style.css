@@ -5,15 +5,15 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: #303030;
- 		color: #ffffff;
+ 		background: white;
+ 		color : black;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
 		overflow-x: hidden; /* prevent horizontal scrollbar from appearing */
 	}
 	
 a {
-	color: #47C6F8;
+	color: tomato;
 }
 	
 a:hover {
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color:tomato;
 		font-weight: bold;
 	}
 /* end h2 */
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color: tomato;
 	}
 header span
 	{
@@ -165,18 +165,29 @@ header .social-icon li a
 /* start nagivation */
 .navbar-default
 	{
-		background: #fff;
+		background: black;
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
 	}
 .navbar-default .navbar-brand
 	{
-		font-weight: 500;
+		
 		font-size: 30px;
 		height: 70px;
 		line-height: 40px;
 		padding: 12px 0px 0px 12px;
+		font-family: sans-serif;
+		 
+		font-weight: lighter;
+	}
+	.navbar-default .navbar-brand span
+	{
+		 
+		font-weight: 400;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-style: normal;
+		color: tomato;
 	}
 .navbar-default .navbar-nav li a
 	{
@@ -187,7 +198,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: tomato; 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -218,7 +229,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #28a7e9;
+		color: tomato;
 		font-weight: bold;
 	}
 #home .btn
@@ -276,11 +287,13 @@ header .social-icon li a
 /* start team */
 #team .team-wrapper
 	{
-		background: #404040;
+		background:#271e1e;
 		padding-bottom: 10px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 		position: relative;
+		color: white;
+		text-align: center;
 	}
 #team .team-wrapper:hover
 	{
@@ -294,28 +307,31 @@ header .social-icon li a
 	}
 #team .team-wrapper .team-des span
 	{
-		color: #28a7e9;
+		color: tomato;
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
+		text-align: center;
 	}
 /* end team */
 
 /* start service */
 #service .col-md-4
 	{
-		padding: 40px;
+		padding: 10px;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
 	}
 #service .col-md-4:hover
 	{
-		background: #505050;
+		border: tomato;
+		border-radius: 10px;
+		border-style: solid;
 	}
 #service .active
 	{
-		background: #505050;
-		padding: 40px;
+		border-color:blue;
+		padding: 5px;
 	}
 #service .fa
 	{
@@ -330,7 +346,7 @@ header .social-icon li a
 	}
 #service h4
 	{
-		color: #28a7e9;
+		color: tomato;
 		font-weight: 600;
 		padding-top: 10px;
 		padding-bottom: 14px;
@@ -401,7 +417,7 @@ header .social-icon li a
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid tomato;
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -418,7 +434,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: tomato;
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
